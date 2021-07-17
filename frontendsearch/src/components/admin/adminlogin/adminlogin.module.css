@@ -1,0 +1,49 @@
+.adminloginText {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px !important;
+  line-height: 17px;
+  color: #574e4c !important;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.form {
+  width: 70%;
+  margin: 30px auto 10px;
+  /* text-align: center; */
+  /* padding: 10px auto; */
+  /* display: inline-block;
+    justify-content: center; */
+}
+
+.formLabel {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 17px;
+  color: #574e4c !important;
+  text-align: left;
+  padding: 10px 0px 5px;
+  display: block;
+  justify-content: left;
+}
+
+.formFields {
+}
+
+.formBtn {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff !important;
+  background-color: #e42a2f !important;
+  min-height: 40px;
+  min-width: 180px;
+  border-radius: 3px;
+  margin-top: 10px;
+}

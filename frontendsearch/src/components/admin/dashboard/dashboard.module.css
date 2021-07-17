@@ -1,0 +1,29 @@
+.buttonmain{
+    display: flex;
+    margin-top: 31px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.iconm{
+    width: 31px;
+    background: red;
+    text-align: center;
+    margin-right: 10px;
+}
+.iconm> svg{
+    color: white;
+}
+.leftmain{
+    min-height: 100vh;
+    padding: 0px 60px;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.logoutmain{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex: 1;
+}

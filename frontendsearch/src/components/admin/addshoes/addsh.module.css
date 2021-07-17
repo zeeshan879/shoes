@@ -1,0 +1,33 @@
+.head {
+  background: #adb5bd;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  color: #212529;
+  line-height: 2;
+}
+.selectrow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.addbutton {
+  color: #212529;
+  background-color: #adb5bd;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  font-weight: 700;
+}
+.alignbu {
+  display: flex;
+  justify-content: flex-end;
+}
+.mart {
+  margin-top: 40px !important;
+}
+.alignimg {
+  display: flex;
+}

@@ -1,0 +1,100 @@
+.home_container {
+  max-width: 100vw !important;
+  padding: 20px 40px;
+  /* min-height: 100vh; */
+  position: relative;
+}
+/* span {
+  margin-left: 30px;
+} */
+
+.title {
+  margin-top: 20px !important;
+  font-weight: 600;
+}
+.adminlogin_formBtn__7NxaZ > .MuiButton-label {
+  margin-left: 0px !important;
+}
+.search {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 150px;
+  height: 50px;
+}
+.balign {
+  display: flex !important;
+  justify-content: flex-end;
+  padding-right: 38px;
+}
+@media screen and (max-width: 700px) {
+  .search {
+    bottom: -50px;
+  }
+}
+
+.checkboxOne {
+  width: 10px;
+  height: 10px;
+  background: #555;
+  margin: 20px 80px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.checkboxOne input[type="checkbox"]:checked + label {
+  left: 27px;
+}
+/**
+ * Create the slider from the label
+ */
+.checkboxOne label {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+
+  transition: all 0.5s ease;
+  cursor: pointer;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+
+  background: #ccc;
+}
+
+.size_weight {
+  width: 60px;
+  border-radius: 25px;
+  margin: 0 5px;
+  box-shadow: none;
+  border: 1px solid gray;
+  padding-left: 10px;
+  outline: none;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: 50px 70px 20px 50px;
+  margin: 15px 0;
+}
+.test {
+  width: 50px !important;
+  margin-right: 10px !important;
+}
+.test:checked {
+  background-color: blue !important;
+}
+.test:checked::before {
+  left: 31px !important;
+  top: 1px !important;
+}
+.align {
+  width: 14px;
+  position: relative;
+  background: #c6c6c64e;
+  height: 14px;
+  outline: none;
+  border-radius: 20px;
+  align-self: center;
+  box-shadow: inset 0 0 5px rgb(0 0 0 / 8%);
+}
