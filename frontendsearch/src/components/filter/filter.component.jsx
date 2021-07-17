@@ -605,52 +605,66 @@ class Filter extends React.Component {
                 <Col>
                   <p className="title">safety properties</p>
                   <RoundRadio
-                    title={"C"}
+                    title={"O_percent_metal"}
                     change={this.handleChange}
                     catagory={"safetyProperties"}
-                    dbName={"C"}
+                    dbName={"O_percent_metal"}
                     className="S02S03 S3 align"
                   />
                   <RoundRadio
-                    title={"Pt"}
+                    title={"ESD"}
                     change={this.handleChange}
                     catagory={"safetyProperties"}
-                    dbName={"Pt"}
+                    dbName={"ESD"}
                     className="S1 S1P align "
                   />{" "}
                   <RoundRadio
-                    title={"Fe"}
+                    title={"SRC"}
                     change={this.handleChange}
                     catagory={"safetyProperties"}
-                    dbName={"Fe"}
+                    dbName={"SRC"}
                     className="S1 S1P S2 S02S03 S3 align"
                   />{" "}
                   <RoundRadio
-                    title={"A"}
+                    title={"An"}
                     change={this.handleChange}
                     catagory={"safetyProperties"}
-                    dbName={"A"}
+                    dbName={"An"}
                     className="S1 S1P S2 S02S03 S3 align"
                   />{" "}
                   <RoundRadio
-                    title={"E"}
+                    title={"Ci"}
                     change={this.handleChange}
                     catagory={"safetyProperties"}
-                    dbName={"E"}
+                    dbName={"Ci"}
                     className="S1 S1P S2 S02S03 S3 align"
                   />
                   <RoundRadio
-                    title={"P"}
+                    title={"Hi"}
                     change={this.handleChange}
                     catagory={"safetyProperties"}
-                    dbName={"P"}
+                    dbName={"Hi"}
                     className="S1P S02S03 S3 align"
                   />
                   <RoundRadio
-                    title={"Wru"}
+                    title={"Wr"}
                     change={this.handleChange}
                     catagory={"safetyProperties"}
-                    dbName={"Wru"}
+                    dbName={"Wr"}
+                    className="S2 S02S03 S3 align"
+                  />
+                  <RoundRadio
+                    title={"Hro"}
+                    change={this.handleChange}
+                    catagory={"safetyProperties"}
+                    dbName={"Hro"}
+                    className="S2 S02S03 S3 align"
+                  />
+                  <RoundRadio
+                    title={"Fo"}
+                    change={this.handleChange}
+                    catagory={"safetyProperties"}
+                    dbName={"Fo"}
                     className="S2 S02S03 S3 align"
                   />
                 </Col>
